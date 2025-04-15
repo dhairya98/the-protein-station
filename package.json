@@ -1,0 +1,31 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is namaste react by dhairya anchal",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhairya98/namaste-react.git"
+  },
+  "keywords": [
+    "namaste"
+  ],
+  "author": "Dhairya Anchal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhairya98/namaste-react/issues"
+  },
+  "homepage": "https://github.com/dhairya98/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.5.0"
+  }
+}
