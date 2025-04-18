@@ -1,43 +1,50 @@
 import React, { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { useParams } from "react-router";
+import useRestaurantMenu from "../utils/useRestaurantMenu";
+import RestaurantCategories from "./RestaurantCategories";
 
 const RestaurantMenu = () => {
-  const [resInfo, setInfo] = useState(null);
-  const {resId} = useParams();
-  useEffect(() => {
-    fetchMenu();
-  }, []);
-
-  const fetchMenu = async () => {
-    const data = await fetch(
-      `https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9358325&lng=77.6328499&restaurantId=${resId}&catalog_qa=undefined&query=Burger&submitAction=ENTER`
-    );
-    const json = await data.json();
-    console.log("JSON", json);
-    setInfo(json);
-  };
-
+  // const [resInfo, setInfo] = useState(null);
+  const { resId } = useParams();
+  const resInfo = useRestaurantMenu(resId);
+  const [showItems, setShowItems] = useState(0);
   const { name, cuisines, cloudinaryImageId, costForTwoMessage } =
     resInfo?.data?.cards[2]?.card?.card?.info || {};
 
-  const menuItems = resInfo?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card?.card?.itemCards || [];
-  console.log('Menu Items', menuItems);
-  
+  const menuItems =
+    resInfo?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[2]?.card
+      ?.card?.itemCards || [];
+  console.log(
+    "Menu Items",
+    resInfo?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards
+  );
+
+  const categories =
+    resInfo?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter(
+      (c) =>
+        c?.card?.card?.["@type"] ===
+        "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
+    );
+  console.log("Categories", categories);
 
   return resInfo === null ? (
     <Shimmer />
   ) : (
-    <div className="menu">
-      <h1>{name}</h1>
-      <p>
+    <div className="text-center">
+      <h1 className="font-bold my-6 text-2xl">{name}</h1>
+      <p className="font-bold text-lg">
         {cuisines.join(", ")} - {costForTwoMessage}
       </p>
-      <h2>Menu</h2>
-      <ul>
-        {menuItems.map(item => <li key ={item?.card?.info?.id}>{item?.card?.info?.name} - {item?.card?.info?.price/100}</li>)}
-      </ul>
-      
+      {/* Category Accordions */}
+      {categories?.map((category, idx) => (
+        <RestaurantCategories
+          key={category?.card?.card?.categoryId}
+          category={category?.card?.card}
+          showItems={idx === showItems && true}
+          setShowItems={() => setShowItems(idx)}
+        />
+      ))}
     </div>
   );
 };
