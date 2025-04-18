@@ -42,7 +42,13 @@ const RestaurantMenu = () => {
           key={category?.card?.card?.categoryId}
           category={category?.card?.card}
           showItems={idx === showItems && true}
-          setShowItems={() => setShowItems(idx)}
+          setShowItems={() => {
+            if(idx === showItems) {
+              setShowItems(null)
+            } else {
+              setShowItems(idx)
+            }
+          }}
         />
       ))}
     </div>
