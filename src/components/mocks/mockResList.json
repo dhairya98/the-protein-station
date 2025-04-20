@@ -1,0 +1,1272 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "pageOffset": {
+      "nextOffset": "CP3//////////wEQBCABKIDA3r/ggOPIYzgC",
+      "widgetOffset": {
+        "collectionV5FilterAndSortWidget": "",
+        "collectionV5RestaurantListWidget": "14",
+        "collectionV5MastheadWidget": ""
+      }
+    },
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.CollectionMasthead",
+            "collectionId": "83637",
+            "title": "Burger",
+            "description": "Satisfy your cravings with these fresh and flavoursome burgers.",
+            "imageId": "COLLECTIONS/IMAGES/MERCH/2024/7/2/6f256b56-e319-488b-8003-9ccca21d4f14_pic",
+            "aspectRatio": "3.44",
+            "cta": {
+              "link": "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger,burger,layout_Burger,ads_pc_burger",
+              "type": "collectionv2"
+            },
+            "type": "COLLECTION_MASTHEAD_TYPE_IMAGE_WITH_TEXT",
+            "count": "72 restaurants"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.FilterSortWidget",
+            "sortConfigs": [
+              {
+                "key": "relevance",
+                "title": "Relevance (Default)",
+                "selected": true,
+                "defaultSelection": true
+              },
+              {
+                "key": "deliveryTimeAsc",
+                "title": "Delivery Time"
+              },
+              {
+                "key": "modelBasedRatingDesc",
+                "title": "Rating"
+              },
+              {
+                "key": "costForTwoAsc",
+                "title": "Cost: Low to High"
+              },
+              {
+                "key": "costForTwoDesc",
+                "title": "Cost: High to Low"
+              }
+            ],
+            "restaurantCount": 72
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "856738",
+              "name": "Olive Street Food Cafe",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/17/a97e596c-205b-4c3e-b4cb-ade09d51b7ab_856738.jpg",
+              "locality": "HSR Layout",
+              "areaName": "HSR",
+              "costForTwo": "₹300 for two",
+              "cuisines": ["Burgers", "Cafe"],
+              "avgRating": 4.5,
+              "parentId": "12754",
+              "avgRatingString": "4.5",
+              "totalRatingsString": "539",
+              "promoted": true,
+              "adTrackingId": "cid=28027141~p=4~adgrpid=28027141#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=856738~plpr=COLLECTION~eid=803360fc-d556-4067-8efc-4901cc41ce41~srvts=1745138289217~collid=83637",
+              "sla": {
+                "deliveryTime": 42,
+                "lastMileTravel": 4.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "40-45 mins",
+                "lastMileTravelString": "4.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-04-20 23:00:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textExtendedBadges": {},
+                  "textBased": {},
+                  "imageBased": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹166 OFF",
+                "subHeader": "ABOVE ₹449",
+                "discountTag": "FLAT DEAL",
+                "headerTypeV2": "HEADER_TYPE_V2_CRICKET_MATCH",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "4.6",
+                  "ratingCount": "1.3K+"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+              "campaignId": "28027141"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=856738&source=collection&query=Burger",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "140887",
+              "name": "McDonald's",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/20/7f43e6ea-909e-492f-a1a3-5e12d8c5b9df_140887.jpg",
+              "locality": "Mantri Avenue",
+              "areaName": "Koramangala",
+              "costForTwo": "₹400 for two",
+              "cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
+              "avgRating": 4.5,
+              "parentId": "630",
+              "avgRatingString": "4.5",
+              "totalRatingsString": "10K+",
+              "sla": {
+                "deliveryTime": 28,
+                "lastMileTravel": 2.2,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "2.2 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-04-20 22:45:00",
+                "opened": true
+              },
+              "badges": {
+                "imageBadges": [
+                  {
+                    "imageId": "Ratnesh_Badges/Rx_Awards_2025/Bolt.png",
+                    "description": "Delivery!"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textBased": {},
+                  "imageBased": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "imageId": "Ratnesh_Badges/Rx_Awards_2025/Bolt.png",
+                          "description": "Delivery!"
+                        }
+                      }
+                    ]
+                  },
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹549",
+                "discountTag": "FLAT DEAL",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "--"
+                }
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=140887&source=collection&query=Burger",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "167674",
+              "name": "Easybites By Empire",
+              "cloudinaryImageId": "0264cd82d3b82490a7e75a55f06a45de",
+              "locality": "Koramangala",
+              "areaName": "Koramangala",
+              "costForTwo": "₹200 for two",
+              "cuisines": ["Snacks", "Fast Food", "Beverages"],
+              "avgRating": 4.3,
+              "parentId": "443171",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "4.7K+",
+              "promoted": true,
+              "adTrackingId": "cid=28027802~p=5~adgrpid=28027802#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=167674~plpr=COLLECTION~eid=da1ec6b6-4f5e-4e15-901e-d20a4809527c~srvts=1745138289217~collid=83637",
+              "sla": {
+                "deliveryTime": 35,
+                "lastMileTravel": 2.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "35-40 mins",
+                "lastMileTravelString": "2.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-04-21 03:00:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textExtendedBadges": {},
+                  "textBased": {},
+                  "imageBased": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹66 OFF",
+                "subHeader": "ABOVE ₹249",
+                "discountTag": "FLAT DEAL",
+                "headerTypeV2": "HEADER_TYPE_V2_CRICKET_MATCH",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "3.5",
+                  "ratingCount": "180"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+              "campaignId": "28027802"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=167674&source=collection&query=Burger",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "25620",
+              "name": "KFC",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/fc1726b6-290d-463d-9baa-d1c34c0542fc_25620.JPG",
+              "locality": "Intermediate Ring Road",
+              "areaName": "Ejipura",
+              "costForTwo": "₹400 for two",
+              "cuisines": ["Burgers", "Fast Food", "Rolls & Wraps"],
+              "avgRating": 4.3,
+              "parentId": "547",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "32K+",
+              "sla": {
+                "deliveryTime": 24,
+                "lastMileTravel": 1.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "1.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-04-20 23:59:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textExtendedBadges": {},
+                  "textBased": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹59",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "--"
+                }
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=25620&source=collection&query=Burger",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "1051527",
+              "name": "Protein Chef",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/18/b9e023d7-6f99-4fc7-bdbf-1e1bf6a8060b_1051527.jpg",
+              "locality": "Ashwini Layout",
+              "areaName": "Koramangala",
+              "costForTwo": "₹300 for two",
+              "cuisines": ["Healthy Food", "North Indian", "sandwich"],
+              "avgRating": 4.4,
+              "parentId": "341825",
+              "avgRatingString": "4.4",
+              "totalRatingsString": "33",
+              "promoted": true,
+              "adTrackingId": "cid=28027432~p=7~adgrpid=28027432#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=1051527~plpr=COLLECTION~eid=d1e247f0-56b2-45ef-8543-f7c912bedbfb~srvts=1745138289217~collid=83637",
+              "sla": {
+                "deliveryTime": 30,
+                "lastMileTravel": 1.4,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "1.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-04-21 00:00:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textExtendedBadges": {},
+                  "textBased": {},
+                  "imageBased": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "50% OFF",
+                "subHeader": "UPTO ₹100",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "isNewlyOnboarded": true,
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "--"
+                }
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+              "campaignId": "28027432"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=1051527&source=collection&query=Burger",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "65797",
+              "name": "Leon's - Burgers & Wings (Leon Grill)",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/14/33bfb682-d5fa-4054-9e2c-31911e34ebf6_65797.jpg",
+              "locality": "Koramangala",
+              "areaName": "Koramangala",
+              "costForTwo": "₹300 for two",
+              "cuisines": [
+                "American",
+                "Snacks",
+                "Turkish",
+                "Portuguese",
+                "Continental"
+              ],
+              "avgRating": 4.5,
+              "parentId": "371281",
+              "avgRatingString": "4.5",
+              "totalRatingsString": "56K+",
+              "sla": {
+                "deliveryTime": 33,
+                "lastMileTravel": 2.8,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "2.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-04-21 04:00:00",
+                "opened": true
+              },
+              "badges": {
+                "imageBadges": [
+                  {
+                    "imageId": "Rxawards/_CATEGORY-Burger.png",
+                    "description": "Delivery!"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textBased": {},
+                  "imageBased": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "description": "Delivery!",
+                          "imageId": "Rxawards/_CATEGORY-Burger.png"
+                        }
+                      }
+                    ]
+                  },
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "66% OFF",
+                "subHeader": "UPTO ₹146",
+                "headerTypeV2": "HEADER_TYPE_V2_CRICKET_MATCH",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "4.5",
+                  "ratingCount": "4.7K+"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=65797&source=collection&query=Burger",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "739117",
+              "name": "Boba Bhai",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/7/e0930ae4-82d3-415e-9b37-4ada0ab077a2_739117.jpg",
+              "locality": "Industrial Layout ward",
+              "areaName": "Kormangla",
+              "costForTwo": "₹200 for two",
+              "cuisines": [
+                "Bubble Tea",
+                "Burger",
+                "Korean",
+                "Beverages",
+                "Fast Food",
+                "Juice and shake"
+              ],
+              "avgRating": 4.2,
+              "parentId": "361235",
+              "avgRatingString": "4.2",
+              "totalRatingsString": "1.2K+",
+              "promoted": true,
+              "adTrackingId": "cid=27931863~p=9~adgrpid=27931863#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=739117~plpr=COLLECTION~eid=a0e0cfbb-65e0-4f48-b98f-ac59310d6629~srvts=1745138289217~collid=83637",
+              "sla": {
+                "deliveryTime": 49,
+                "lastMileTravel": 2.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "45-50 mins",
+                "lastMileTravelString": "2.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-04-27 00:00:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {},
+                  "textExtendedBadges": {},
+                  "textBased": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹166 OFF",
+                "subHeader": "ABOVE ₹499",
+                "discountTag": "FLAT DEAL",
+                "headerTypeV2": "HEADER_TYPE_V2_CRICKET_MATCH",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "--"
+                }
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+              "campaignId": "27931863"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=739117&source=collection&query=Burger",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "5934",
+              "name": "Burger King",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/24/6c37bd85-e460-4f35-9a27-ea97d88f4e3a_5934.jpg",
+              "locality": "Koramangala",
+              "areaName": "Koramangala",
+              "costForTwo": "₹350 for two",
+              "cuisines": ["Burgers", "American"],
+              "avgRating": 4.2,
+              "parentId": "166",
+              "avgRatingString": "4.2",
+              "totalRatingsString": "101K+",
+              "sla": {
+                "deliveryTime": 32,
+                "lastMileTravel": 3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "3.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-04-21 06:55:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textExtendedBadges": {},
+                  "textBased": {},
+                  "imageBased": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹166 OFF",
+                "subHeader": "ABOVE ₹749",
+                "discountTag": "FLAT DEAL",
+                "headerTypeV2": "HEADER_TYPE_V2_CRICKET_MATCH",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "4.2",
+                  "ratingCount": "4.1K+"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=5934&source=collection&query=Burger",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "739118",
+              "name": "Seoul Burgers & Shakes",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/11/7/63a2b5b2-8f13-4dc6-bd88-0689faa5192c_739118.jpg",
+              "locality": "Industrial Layout ward",
+              "areaName": "Kormangla",
+              "costForTwo": "₹200 for two",
+              "cuisines": [
+                "Burger",
+                "Bubble Tea",
+                "Fast Food",
+                "Beverages",
+                "Juice and shake"
+              ],
+              "avgRating": 4.4,
+              "parentId": "588706",
+              "avgRatingString": "4.4",
+              "totalRatingsString": "894",
+              "promoted": true,
+              "adTrackingId": "cid=27931878~p=12~adgrpid=27931878#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=739118~plpr=COLLECTION~eid=1552ec85-60cd-49bc-9762-90fdcbe35960~srvts=1745138289217~collid=83637",
+              "sla": {
+                "deliveryTime": 44,
+                "lastMileTravel": 2.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "40-45 mins",
+                "lastMileTravelString": "2.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-04-27 00:00:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textExtendedBadges": {},
+                  "textBased": {},
+                  "imageBased": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹166 OFF",
+                "subHeader": "ABOVE ₹499",
+                "discountTag": "FLAT DEAL",
+                "headerTypeV2": "HEADER_TYPE_V2_CRICKET_MATCH",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "--"
+                }
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+              "campaignId": "27931878"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=739118&source=collection&query=Burger",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "316104",
+              "name": "Biggies Burger",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/3/dfc71684-9fcf-4714-9743-a0e6db8f8412_316104.jpg",
+              "locality": "Church Street",
+              "areaName": "HSR Layout",
+              "costForTwo": "₹350 for two",
+              "cuisines": ["Burgers", "Fast Food"],
+              "avgRating": 4.3,
+              "parentId": "45723",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "2.0K+",
+              "sla": {
+                "deliveryTime": 34,
+                "lastMileTravel": 3.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "3.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-04-21 04:00:00",
+                "opened": true
+              },
+              "badges": {
+                "textExtendedBadges": [
+                  {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textBased": {},
+                  "imageBased": {},
+                  "textExtendedBadges": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "shortDescription": "options available",
+                          "fontColor": "#7E808C",
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "description": ""
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "20% OFF",
+                "subHeader": "UPTO ₹50",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "4.5",
+                  "ratingCount": "2.0K+"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=316104&source=collection&query=Burger",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "724139",
+              "name": "Bonomi Coffee",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/5/4b22ee10-ec99-4486-bc97-7b4c18023cd3_724139.jpg",
+              "locality": "KORAMANGALA",
+              "areaName": "Koramangala",
+              "costForTwo": "₹300 for two",
+              "cuisines": ["sandwich", "Coffee", "Beverages", "Burger"],
+              "avgRating": 4,
+              "parentId": "488969",
+              "avgRatingString": "4.0",
+              "totalRatingsString": "277",
+              "promoted": true,
+              "adTrackingId": "cid=28026971~p=13~adgrpid=28026971#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=724139~plpr=COLLECTION~eid=290198b6-a554-403f-a839-907f458d836a~srvts=1745138289217~collid=83637",
+              "sla": {
+                "deliveryTime": 23,
+                "lastMileTravel": 0.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "0.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-04-20 23:00:00",
+                "opened": true
+              },
+              "badges": {
+                "textExtendedBadges": [
+                  {
+                    "iconId": "guiltfree/GF_Logo_android_3x",
+                    "shortDescription": "options available",
+                    "fontColor": "#7E808C"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textBased": {},
+                  "imageBased": {},
+                  "textExtendedBadges": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "iconId": "guiltfree/GF_Logo_android_3x",
+                          "description": "",
+                          "shortDescription": "options available",
+                          "fontColor": "#7E808C"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "40% OFF",
+                "subHeader": "UPTO ₹80",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "--"
+                }
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+              "campaignId": "28026971"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=724139&source=collection&query=Burger",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "231138",
+              "name": "BOSS Burger",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/16/2bbce76d-267c-4b56-9a2b-d3e6a0d213fb_231138.jpg",
+              "locality": "7th Block",
+              "areaName": "Koramangala",
+              "costForTwo": "₹500 for two",
+              "cuisines": ["Burgers", "American", "Fast Food", "Snacks"],
+              "avgRating": 4.2,
+              "parentId": "8594",
+              "avgRatingString": "4.2",
+              "totalRatingsString": "2.4K+",
+              "sla": {
+                "deliveryTime": 51,
+                "lastMileTravel": 2.9,
+                "serviceability": "SERVICEABLE",
+                "slaString": "50-55 mins",
+                "lastMileTravelString": "2.9 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-04-20 23:30:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textExtendedBadges": {},
+                  "textBased": {},
+                  "imageBased": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹249",
+                "discountTag": "FLAT DEAL",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "--"
+                }
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=231138&source=collection&query=Burger",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "690684",
+              "name": "Burgerama",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/5/eb46c732-4004-4563-88ed-ace5893adccb_690684.jpg",
+              "locality": "Koramangala",
+              "areaName": "Koramangala",
+              "costForTwo": "₹700 for two",
+              "cuisines": ["American"],
+              "avgRating": 4.3,
+              "parentId": "8993",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "2.4K+",
+              "promoted": true,
+              "adTrackingId": "cid=28037781~p=14~adgrpid=28037781#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=690684~plpr=COLLECTION~eid=f6977c24-c237-4541-bb80-740c76e2d970~srvts=1745138289217~collid=83637",
+              "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 1.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "1.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-04-21 04:00:00",
+                "opened": true
+              },
+              "badges": {
+                "imageBadges": [
+                  {
+                    "imageId": "newg.png",
+                    "description": "Gourmet"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textExtendedBadges": {},
+                  "textBased": {},
+                  "imageBased": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "description": "Gourmet",
+                          "imageId": "newg.png"
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹166 OFF",
+                "subHeader": "ABOVE ₹799",
+                "discountTag": "FLAT DEAL",
+                "headerTypeV2": "HEADER_TYPE_V2_CRICKET_MATCH",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "4.4",
+                  "ratingCount": "86"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+              "campaignId": "28037781"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=690684&source=collection&query=Burger",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget"
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "nextFetch": 3
+  },
+  "tid": "da9555fe-2652-4f08-ab57-efee427c5562",
+  "sid": "k5263101-56a3-4ded-a3a0-60018eb56594",
+  "deviceId": "3541c49b-b5ae-fba0-974c-7ac15cb934ec",
+  "csrfToken": "EQxIouXxcoen-mzApCx9RPF8YO2zLg8lyPhcXqgY"
+}
