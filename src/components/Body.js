@@ -35,6 +35,9 @@ const Body = () => {
     return <h1>Looks like you are offline</h1>;
   }
 
+  console.log('Restaurant Data', restaurantData);
+  
+
   return restaurantData.length === 0 ? (
     <Shimmer />
   ) : (
@@ -64,7 +67,7 @@ const Body = () => {
               onClick={() =>
                 setFilteredRestaurants(
                   restaurantData.filter(
-                    (restaurant) => restaurant?.info?.avgRating >= 4.4
+                    (restaurant) => restaurant?.card?.card?.info?.avgRating >= 4.4
                   )
                 )
               }
