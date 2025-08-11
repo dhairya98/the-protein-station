@@ -1,1 +1,1 @@
-Namaste React
+Restaurant specific project
